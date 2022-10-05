@@ -1,21 +1,21 @@
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+asttokens==2.0.5
 attrs==22.1.0
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backcall==0.2.0
 bleach==5.0.1
-certifi @ file:///C:/b/abs_4f5wo627a3/croots/recipe/certifi_1663615677642/work/certifi
+certifi==2022.9.14
 charset-normalizer==2.1.1
-click @ file:///C:/ci/click_1646056762388/work
-colorama @ file:///C:/Windows/TEMP/abs_9439aeb1-0254-449a-96f7-33ab5eb17fc8apleb4yn/croots/recipe/colorama_1657009099097/work
+click==8.0.4
+colorama==0.4.5
 commonmark==0.9.1
 coverage==6.4.4
 cycler==0.11.0
-debugpy @ file:///C:/ci_310/debugpy_1642079916595/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+debugpy==1.5.1
+decorator==5.1.1
 docopt==0.6.2
 docutils==0.19
 ERAlchemy==1.2.10
-executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
-Flask @ file:///C:/ci/flask_1658860024433/work
+executing==0.8.3
+Flask==2.1.3
 fonttools==4.37.1
 greenlet==1.1.3
 gunicorn==20.1.0
@@ -24,51 +24,52 @@ idna==3.3
 imblearn==0.0
 importlib-metadata==4.12.0
 iniconfig==1.1.1
-ipykernel @ file:///C:/ci/ipykernel_1647000977835/work/dist/ipykernel-6.9.1-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1657652608590/work
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+ipykernel==6.9.1
+ipython==8.4.0
+itsdangerous==2.0.1
 jaraco.classes==3.2.2
-jedi @ file:///C:/ci/jedi_1644315428305/work
-Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+jedi==0.18.1
+Jinja2==3.0.3
 joblib==1.2.0
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1616770841739/work
-jupyter-core @ file:///C:/ci/jupyter_core_1651638076360/work
+jupyter-client==6.1.12
+jupyter-core==4.10.0
 keyring==23.9.1
 kiwisolver==1.4.4
-MarkupSafe @ file:///C:/ci/markupsafe_1654508036328/work
+MarkupSafe==2.1.1
 matplot==0.1.9
 matplotlib==3.5.3
-matplotlib-inline @ file:///C:/ci/matplotlib-inline_1661934094726/work
+matplotlib-inline==0.1.6
 more-itertools==8.14.0
-nest-asyncio @ file:///C:/ci/nest-asyncio_1649848132512/work
+nest-asyncio==1.5.5
 npm==0.1.1
 numpy==1.23.2
 optional-django==0.1.0
 pandas==1.4.4
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+parso==0.8.3
+pickleshare==0.7.5
 Pillow==9.2.0
+pip==22.2.2
 pipreqs==0.4.11
 pkginfo==1.8.3
 pluggy==1.0.0
 pprintpp==0.4.0
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
-pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+prompt-toolkit==3.0.20
+pure-eval==0.2.2
 py==1.11.0
 pycountry==22.3.5
 pycountry-convert==0.7.2
 pydot==1.4.2
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-pygraphviz @ file:///C:/Windows/Temp/abs_7b40aeee-2b44-4054-bd88-c90af1b10c70b9j9w3r5/croots/recipe/pygraphviz_1657200542250/work
+Pygments==2.11.2
+pygraphviz==1.9
 pyloco==0.0.139
 pytest==7.1.3
 pytest-cov==3.0.0
 pytest-mock==3.8.2
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dateutil==2.8.2
 pytz==2022.2.1
 pywin32==302
 pywin32-ctypes==0.2.0
-pyzmq @ file:///C:/ci/pyzmq_1657616000714/work
+pyzmq==23.2.0
 readme-renderer==37.1
 repoze.lru==0.7
 requests==2.28.1
@@ -78,24 +79,26 @@ rich==12.5.1
 scikit-learn==1.1.2
 scipy==1.9.1
 seaborn==0.11.2
+setuptools==63.4.1
 SimpleWebSocketServer==0.1.1
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+six==1.16.0
 sklearn==0.0
 SQLAlchemy==1.4.40
 sqlalchemy-schemadisplay==1.3
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+stack-data==0.2.0
 threadpoolctl==3.1.0
 tomli==2.0.1
-tornado @ file:///C:/ci/tornado_1662476985533/work
-traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+tornado==6.2
+traitlets==5.1.1
 twine==4.0.1
 typing==3.7.4.3
 urllib3==1.26.12
 ushlex==0.99.1
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.4.1
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
+Werkzeug==2.0.3
+wheel==0.37.1
 wincertstore==0.2
 yarg==0.1.9
 zipp==3.8.1
