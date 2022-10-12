@@ -13099,17 +13099,13 @@ read and write file, column name in YAML</p>
 <p>file size</p>
 </li>
 </ul>
-<h1 id="Data-Ingestion-sample-code-walkthrough">Data Ingestion sample code walkthrough<a class="anchor-link" href="#Data-Ingestion-sample-code-walkthrough">&#182;</a></h1><h2 id="-"> <a class="anchor-link" href="#-">&#182;</a></h2><blockquote><p>Create a utility file</p>
-<p>Config file creation</p>
-<p>Data ingestion pipeline</p>
-</blockquote>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span><span class="p">,</span><span class="n">files</span>
@@ -13141,7 +13137,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">logging</span>
@@ -13212,7 +13208,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> schema.yaml
@@ -13259,7 +13255,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read config file</span>
@@ -13273,7 +13269,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">config_data</span><span class="p">[</span><span class="s1">&#39;inbound_delimiter&#39;</span><span class="p">]</span>
@@ -13289,7 +13285,7 @@ read and write file, column name in YAML</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -13306,7 +13302,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#inspecting data of config file</span>
@@ -13323,7 +13319,7 @@ read and write file, column name in YAML</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -13353,7 +13349,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Normal reading process of the file</span>
@@ -13372,13 +13368,13 @@ read and write file, column name in YAML</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-47eca659-b99b-4128-96cc-fa0ed157e925">
+  <div id="df-e8509356-a720-4ed9-8139-f14defe55428">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13473,7 +13469,7 @@ read and write file, column name in YAML</p>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-47eca659-b99b-4128-96cc-fa0ed157e925')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e8509356-a720-4ed9-8139-f14defe55428')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13524,12 +13520,12 @@ read and write file, column name in YAML</p>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-47eca659-b99b-4128-96cc-fa0ed157e925 button.colab-df-convert');
+          document.querySelector('#df-e8509356-a720-4ed9-8139-f14defe55428 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-47eca659-b99b-4128-96cc-fa0ed157e925');
+          const element = document.querySelector('#df-e8509356-a720-4ed9-8139-f14defe55428');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13559,7 +13555,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># read the file using config file</span>
@@ -13592,13 +13588,13 @@ read and write file, column name in YAML</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-85d0bfc6-9b27-4244-abf3-5258b84f2bf0">
+  <div id="df-1a5ca3b0-9ac5-4f49-a641-d9d78ccbbca9">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13693,7 +13689,7 @@ read and write file, column name in YAML</p>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-85d0bfc6-9b27-4244-abf3-5258b84f2bf0')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1a5ca3b0-9ac5-4f49-a641-d9d78ccbbca9')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13744,12 +13740,12 @@ read and write file, column name in YAML</p>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-85d0bfc6-9b27-4244-abf3-5258b84f2bf0 button.colab-df-convert');
+          document.querySelector('#df-1a5ca3b0-9ac5-4f49-a641-d9d78ccbbca9 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-85d0bfc6-9b27-4244-abf3-5258b84f2bf0');
+          const element = document.querySelector('#df-1a5ca3b0-9ac5-4f49-a641-d9d78ccbbca9');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13779,7 +13775,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#validate the header of the file</span>
@@ -13807,7 +13803,7 @@ read and write file, column name in YAML</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -13824,7 +13820,7 @@ read and write file, column name in YAML</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;columns of files are:&quot;</span> <span class="p">,</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -13859,7 +13855,7 @@ columns of YAML are: [&#39;campus_number&#39;, &#39;data_release&#39;, &#39;data
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">col_header_val</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">config_data</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
@@ -13897,7 +13893,7 @@ col validation passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;/content/drive/MyDrive/Colab_Notebooks/tidy_campprof_enrollmnent_2013_to_2019.csv&quot;</span><span class="p">)</span>
@@ -13913,13 +13909,13 @@ col validation passed
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-c76e0c08-3c29-449c-a651-8400f7228585">
+  <div id="df-107d1af1-325b-4ea6-81bd-120d3a54d692">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14087,7 +14083,7 @@ col validation passed
 </table>
 <p>1970716 rows × 9 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-c76e0c08-3c29-449c-a651-8400f7228585')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-107d1af1-325b-4ea6-81bd-120d3a54d692')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14138,12 +14134,12 @@ col validation passed
 
       <script>
         const buttonEl =
-          document.querySelector('#df-c76e0c08-3c29-449c-a651-8400f7228585 button.colab-df-convert');
+          document.querySelector('#df-107d1af1-325b-4ea6-81bd-120d3a54d692 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-c76e0c08-3c29-449c-a651-8400f7228585');
+          const element = document.querySelector('#df-107d1af1-325b-4ea6-81bd-120d3a54d692');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14173,12 +14169,13 @@ col validation passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">csv</span>
 <span class="kn">import</span> <span class="nn">gzip</span>
 
+<span class="c1"># dask is faster in reading big files </span>
 <span class="kn">from</span> <span class="nn">dask</span> <span class="kn">import</span> <span class="n">dataframe</span> <span class="k">as</span> <span class="n">dd</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">dd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;/content/*.csv&quot;</span><span class="p">)</span>
 </pre></div>
@@ -14190,7 +14187,7 @@ col validation passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span>
@@ -14206,7 +14203,7 @@ col validation passed
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[80]:</div>
+    <div class="prompt output_prompt">Out[34]:</div>
 
 
 
@@ -14304,7 +14301,7 @@ col validation passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write csv in gz format in pipe separated text file (|)</span>
@@ -14329,7 +14326,7 @@ col validation passed
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[83]:</div>
+    <div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -14347,7 +14344,71 @@ col validation passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># number of the raws </span>
+<span class="o">!</span> zcat -r /content/idy_campprof_2013_to_2019.csv.gz<span class="p">|</span>wc -l
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>387250
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># number of the columns </span>
+<span class="o">!</span> zcat -r  /content/idy_campprof_2013_to_2019.csv.gz<span class="p">|</span>head -n <span class="m">1</span><span class="p">|</span>tr <span class="s1">&#39;|&#39;</span> <span class="s1">&#39; &#39;</span><span class="p">|</span>wc -w
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>9
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[99]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#number of files in gz format folder</span>
@@ -14382,7 +14443,7 @@ col validation passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="prompt input_prompt">In&nbsp;[100]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#size of the gz format folder</span>
@@ -14423,38 +14484,6 @@ jupyter nbconvert --to html /content/drive/MyDrive/Colab_Notebooks/week6_dataing
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[NbConvertApp] Converting notebook /content/drive/MyDrive/Colab_Notebooks/week6_dataingestion.ipynb to html
-[NbConvertApp] Writing 317197 bytes to /content/drive/MyDrive/Colab_Notebooks/week6_dataingestion.html
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre></pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
