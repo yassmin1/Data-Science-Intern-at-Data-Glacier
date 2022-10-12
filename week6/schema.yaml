@@ -1,0 +1,16 @@
+
+file_type: csv
+file_name: tidy_campprof_enrollmnent_2013_to_2019
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - campus_number
+    - data_release 
+    - data_level 
+    - data_category
+    - release_year
+    - demog
+    - count 
+    - all_students
+    - percent
